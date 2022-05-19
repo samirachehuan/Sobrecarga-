@@ -1,0 +1,35 @@
+public class impressora{
+
+  private String modelo;
+  private String marca;
+  private String uso;
+  public impressora(){
+    
+  }
+  public impressora(String marca,String modelo){
+           this.marca=marca;
+           this.modelo=modelo;
+  }
+
+  public impressora(String marca,String modelo,String uso){
+           this.marca=marca;
+           this.modelo=modelo;
+           this.uso=uso;
+  }
+  public int imprime(int a,int b){
+       return imprimir;
+  }
+  public double imprime(double a,double b){
+        return offline;
+  }
+  public String imprime(String a,String b){
+         return erro;
+  }
+  public static void main(String args[]){
+   imprissora imp= new impressora("Online","Offline","Ocupada");
+   System.out.println(imp.imprime("Imprime"));
+   System.out.println(imp.imprime("Impressora offilne"));
+   System.out.println(imp.imprime("Impressora ocupada"));
+ 
+  }
+}
