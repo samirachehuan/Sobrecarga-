@@ -1,4 +1,4 @@
-public class impressora{
+public class Impressora{
 
   private String modelo;
   private String marca;
